@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background: #53212b;
+}
+
+.container {
+  min-height: 50vh;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.banner {
+  padding-top: 100px;
+}
+
+.position-center {
+  margin: auto;
+}
+
+.position-top {
+  margin: top;
+}
+
+#login-field {
+  color: #fd4556;
+  height: 50px;
+  font-family: "VALORANT", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.firstmsg {
+  font-family: "VALORANT", sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 20px #fff, 0 0 30px #ffffff;
+}
+
+.greetmsg {
+  font-family: "VALORANT", sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #53212b;
+  position: absolute;
+
+  /* left: 20%;
+  top: 10%;
+  padding: 10px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%); */
+  text-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff;
+}
+
+.color-properties {
+  font-family: "VALORANT", sans-serif;
+  color: #fd4556;
+  font-weight: 500;
+  font-size: 40px;
+  background-color: #000000;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 10px #fd4556;
+  width: 1200px;
+}
+
+#infodiv {
+  padding: 53px;
+  width: 1000px;
+}
+
+table {
+  width: 1000px;
+  height: 100px;
+}
+
+th,
+td {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+  color: #fd4556;
+  text-shadow: 0 0 10px #fd4556;
+  font-size: 40px;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+  color: #fd4556;
+  text-shadow: 0 0 10px #fd4556;
+}
+
+#greetdiv {
+  padding: 2%;
+  /* border-radius: 10px; */
+  /* margin: 200px; */
+}
+
+#infodiv {
+  padding: 100px;
+  border-radius: 10px;
+}
+
+.mmrbutton {
+  background-color: #fd4556;
+  color: #ffffff;
+  border-radius: 10px;
+  line-height: 3.5;
+  font-size: 1rem;
+  padding: 0 20px;
+  text-shadow: 0 0 10px #ffffff;
+  box-shadow: 0 0 10px #fd4556;
+}
+
+.mmrbutton:hover {
+  /* background-color: rgba(255, 0, 0, 1); */
+  text-shadow: 0 0 20px #ffffff, 0 0 10px #ffffff;
+  box-shadow: 0 0 20px #fd4556, 0 0 10px #fd4556;
+}
+.mmrbutton:active {
+  box-shadow: inset -1px -1px 2px #fd4556, inset 2px 2px 3px #53212b;
+  text-shadow: inset -1px -1px 2px #ffffff, inset 2px 2px 3px #fd4556;
+}
+
+.contentdiv {
+  padding: 2%;
+  position: absolute;
+  top: 50%;
+}
+
+.inputval {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  background: #fffbf5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#login-field::placeholder {
+  color: #0a1129;
+}
+
+#hello {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#enteredName,
+#next,
+#filmID,
+#search,
+#rand {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #53212b;
+  background: #fd4556;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
